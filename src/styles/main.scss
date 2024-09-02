@@ -1,0 +1,67 @@
+@use 'variaveis';
+@use 'hero';
+@use 'sumario';
+@use 'elenco';
+@use 'streaming';
+@use 'faq';
+@use 'footer';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Avenir, sans-serif;
+    
+}
+
+body{
+
+    background-image: url("../images/background-agua.jpg");
+    background-size: cover;
+    
+}
+
+@mixin text($fontSize: 24px){
+    font-size: $fontSize;
+    line-height: $fontSize + 10px;
+    color: #161616;
+}
+
+.text {
+    @include text;
+}
+
+.text--small {
+    @include text(20px);
+}
+
+.text--white {
+    @include text;
+    color: #fff
+}
+
+.text--white-small {
+    @include text(20px);
+    color: #fff
+}
+
+.title{
+    @include text(60px);
+    color: black;
+    
+}
+
+.title--normal{
+    @include text(54px);
+    color: black;
+    
+}
+
+
+
+.bungee-shade-regular {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #161616;
+  }

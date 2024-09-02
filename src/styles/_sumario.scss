@@ -1,0 +1,14 @@
+.sumario{
+    padding: 5.6vw;
+    min-height: 5.3vw;
+    background-color: #fff;
+
+    &__text{
+        padding-top: 4vw;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        display: flex;
+        text-align: justify;
+        list-style: none;
+    }
+}

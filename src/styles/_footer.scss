@@ -1,0 +1,6 @@
+@use 'variaveis';
+
+footer{
+    min-height: 100px;
+    background-color: variaveis.$preto;
+}

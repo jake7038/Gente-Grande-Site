@@ -1,0 +1,24 @@
+.elenco{
+    padding: 5.6vw;
+    background-color: white;
+
+    &__escolha{
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        list-style: none;
+        align-content: center;
+        padding-top: 4vw;
+
+        &__item{
+            text-align: center;
+            padding-top: 2vw;
+            img{
+                border-radius: 50%;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
