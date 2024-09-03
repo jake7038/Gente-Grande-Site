@@ -6,9 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="./dist/css/main.css">
-    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <title>Gente Grande | Filmes</title>
 </head>
 <body>
@@ -51,27 +50,59 @@
     <section class="elenco">
             <h2 class="title--normal bungee-shade-regular"> Conheça as estrelas do filme</h2>
 
-            <ul class="elenco__escolha elenco__escolha--ativo">
-                <li class="elenco__escolha__item">
+            <ul id="elenco" class="elenco__escolha elenco__escolha--active">
+                <li id="pessoa0" class="elenco__escolha__item">
                     <img src="https://placehold.co/200" alt="">
                 </li>
                 
-                <li class="elenco__escolha__item">
+                <li id="pessoa1" class="elenco__escolha__item">
                     <img src="https://placehold.co/200" alt="">
                 </li>
-                <li class="elenco__escolha__item">
+                <li id="pessoa2" class="elenco__escolha__item">
                     <img src="https://placehold.co/200" alt="">
                 </li>
-                <li class="elenco__escolha__item">
-                    <img src="https://placehold.co/200" alt="">
-                </li>
-
-                <li class="elenco__escolha__item">
+                <li id="pessoa3" class="elenco__escolha__item">
                     <img src="https://placehold.co/200" alt="">
                 </li>
 
-                <li class="elenco__escolha__item">
+                <li id="pessoa4" class="elenco__escolha__item">
                     <img src="https://placehold.co/200" alt="">
+                </li>
+
+                <li id="pessoa5" class="elenco__escolha__item">
+                    <img src="https://placehold.co/200" alt="">
+                </li>
+            </ul>
+
+            <ul  class="elenco__astro ">
+                <li id="resumo0" class="elenco__astro__item ">
+                    sim
+                    <button class="return0">Clique aqui</button>
+                </li>
+
+                <li id="resumo1" class="elenco__astro__item ">
+                    oi
+                    <button class="return1">Clique aqui</button>
+                </li>
+
+                <li id="resumo2" class="elenco__astro__item ">
+                    oi
+                    <button class="return2">Clique aqui</button>
+                </li>
+
+                <li id="resumo3" class="elenco__astro__item ">
+                    oi
+                    <button class="return3">Clique aqui</button>
+                </li>
+
+                <li id="resumo4" class="elenco__astro__item ">
+                    oi
+                    <button class="return4">Clique aqui</button>
+                </li>
+
+                <li id="resumo5" class="elenco__astro__item ">
+                    oi
+                    <button class="return5">Clique aqui</button>
                 </li>
             </ul>
 
@@ -131,5 +162,6 @@
     </footer>
 
     <script src="./src/scripts/faq.js"></script>
+    <script src="./src/scripts/estrelas.js"></script>
 </body>
 </html>

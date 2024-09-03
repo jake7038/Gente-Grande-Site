@@ -1,13 +1,19 @@
+@use 'variaveis';
+
 .elenco{
     padding: 5.6vw;
     background-color: white;
 
     &__escolha{
         grid-template-columns: 1fr 1fr 1fr;
-        display: grid;
+        display: none;
         list-style: none;
         align-content: center;
         padding-top: 4vw;
+
+        &--active{
+            display: grid;
+        }
 
         &__item{
             text-align: center;
@@ -20,5 +26,22 @@
                 }
             }
         }
+    }
+
+    &__astro{
+        list-style: none;
+
+        &__item{
+            margin:  5.6vw;
+            min-height: 400px;
+            background-color: variaveis.$preto;
+            display: none;
+
+            &--active{
+                display: block;
+            }
+        }
+
+
     }
 }
