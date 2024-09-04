@@ -36,4 +36,23 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .hero{
+        &__content{
+            display: block;
+
+            &__image{
+                padding-top: 20px;
+            }
+            &__text{
+
+                &__video{
+                    height: 366px;
+                }
+            }
+
+        }
+    }
+}
+
 

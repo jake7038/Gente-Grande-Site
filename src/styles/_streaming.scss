@@ -39,3 +39,13 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .streaming{
+        grid-template-columns: 1fr;
+        img{
+            order: 1;
+        }
+    }
+}
+
